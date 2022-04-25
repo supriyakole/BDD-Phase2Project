@@ -1,0 +1,365 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Open the Swag Labs application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3158204200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on SauceDemo login page",
+            "match": {
+              "location": "Loginsteps.user_is_on_saucedemo_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-25T17:41:46.838Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4254898300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Baseclass.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "To validate the positive login",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;to-validate-the-positive-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 753742500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Baseclass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 387333800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters Username \"standard_user\" and Password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 50
+                }
+              ],
+              "location": "Loginsteps.user_enters_something_and_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 263786300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "Loginsteps.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71144800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User lands on the Product Page",
+            "match": {
+              "location": "Loginsteps.user_lands_on_the_product_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Open the Swag Labs application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3145361000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on SauceDemo login page",
+            "match": {
+              "location": "Loginsteps.user_is_on_saucedemo_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-25T17:41:55.777Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1951979900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Baseclass.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "To validate the positive login",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;to-validate-the-positive-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 845157900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Baseclass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 342181600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters Username \"problem_user\" and Password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"problem_user\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 49
+                }
+              ],
+              "location": "Loginsteps.user_enters_something_and_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 195425100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "Loginsteps.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71703500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User lands on the Product Page",
+            "match": {
+              "location": "Loginsteps.user_lands_on_the_product_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "This feature would be used to design the Login page of the application",
+    "description": "",
+    "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Open the Swag Labs application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3130653900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on SauceDemo login page",
+            "match": {
+              "location": "Loginsteps.user_is_on_saucedemo_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 356264600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters Username \"standard_user\" and Password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 50
+                }
+              ],
+              "location": "Loginsteps.user_enters_something_and_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 221776400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "Loginsteps.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-25T17:42:02.337Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1936221000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Baseclass.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "To validate the Product Prices",
+        "description": "",
+        "id": "this-feature-would-be-used-to-validate-the-product-prices;to-validate-the-product-prices",
+        "after": [
+          {
+            "result": {
+              "duration": 724254600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Baseclass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 63859500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is on Products Page",
+            "match": {
+              "location": "Productsteps.user_is_on_Products_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 149916800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User compare the following products price",
+            "match": {
+              "location": "Productsteps.user_compare_the_following_products_price(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Sauce Labs Backpack",
+                  "$29.99"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bike Light",
+                  "$9.99"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "This feature would be used to validate the Product prices",
+    "description": "",
+    "id": "this-feature-would-be-used-to-validate-the-product-prices",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/Product.feature",
+    "tags": []
+  }
+]
